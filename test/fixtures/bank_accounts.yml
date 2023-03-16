@@ -1,0 +1,23 @@
+# == Schema Information
+#
+# Table name: bank_accounts
+#
+#  id             :bigint           not null, primary key
+#  account_number :string           not null
+#  bank_name      :string           not null
+#  bank_code      :string           not null
+#  account_name   :string           not null
+#  recipient_code :string           not null
+#  created_at     :datetime         not null
+#  updated_at     :datetime         not null
+#
+
+# This model initially had no columns defined. If you add columns to the
+# model remove the "{}" from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+one: {}
+# column: value
+#
+two: {}
+# column: value

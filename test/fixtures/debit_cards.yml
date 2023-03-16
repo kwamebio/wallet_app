@@ -1,0 +1,25 @@
+# == Schema Information
+#
+# Table name: debit_cards
+#
+#  id                 :bigint           not null, primary key
+#  authorization_code :string           not null
+#  last4              :string           not null
+#  exp_month          :string           not null
+#  exp_year           :string           not null
+#  card_type          :string           not null
+#  bank               :string           not null
+#  user_id            :bigint
+#  created_at         :datetime         not null
+#  updated_at         :datetime         not null
+#
+
+# This model initially had no columns defined. If you add columns to the
+# model remove the "{}" from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+one: {}
+# column: value
+#
+two: {}
+# column: value
